@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/utilis/routes.dart';
 import 'package:flutter_application_1/widgets/themes.dart';
-import 'package:google_fonts/google_fonts.dart';
-// ignore: unused_import
-import 'package:flutter/rendering.dart';
 import 'package:flutter_application_1/Sceen/HelloWorld.dart';
 import 'package:flutter_application_1/Sceen/home_page.dart';
 import 'package:flutter_application_1/Sceen/login_page.dart';

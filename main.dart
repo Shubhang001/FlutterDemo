@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/utilis/routes.dart';
 import 'package:flutter_application_1/widgets/themes.dart';
-import 'package:flutter_application_1/Sceen/HelloWorld.dart';
 import 'package:flutter_application_1/Sceen/home_page.dart';
 import 'package:flutter_application_1/Sceen/login_page.dart';
 
@@ -26,8 +25,6 @@ class MyApp extends StatelessWidget {
         MyRoutes.homeRoutes:(context) =>  HomePage(),
         // ignore: prefer_const_constructors
         MyRoutes.LoginRoutes:(context) => LoginPage(),
-        // ignore: prefer_const_constructors
-        "/hello":(context) => MyHomePage(),
       },
     );
   }

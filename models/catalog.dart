@@ -20,5 +20,28 @@ class Item{
   final String image;
 
   Item({required this.id, required this.name, required this.discript, required this.price, required this.color, required this.image});
+
+  factory Item.fromMap(Map<String,dynamic> map){
+    return Item(
+      id: map["id"],
+      name: map["name"],
+      discript: map["discript"],
+      price:map["price"],
+      color:map["color"],
+      image: map["image"],
+    );
+  }
+
+
+  toMap() => {
+  "id": id,
+  "name": name,
+  "discript": discript,
+  "price": price,
+  "color": color,
+  "image": image,
+  };
+
+
 }
 

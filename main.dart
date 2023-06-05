@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.homeRoutes:(context) =>  const HomePage(),
         // ignore: prefer_const_constructors
         MyRoutes.LoginRoutes:(context) => LoginPage(),
-        MyRoutes.LoginRoutes:(context) => const CartPage(),
+        MyRoutes.cartRoutes:(context) => const CartPage(),
       },
     );
   }
